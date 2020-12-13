@@ -39,10 +39,12 @@ Attached Libraries:
    -The function that generates positions from known start and end positionsThis library contains a class of functions to calculate the center of gravity position
     and distance to the support polygon edge
 
+
 -Spotmicro_Gravity_Center_Library_v01.py:
   This file contains a class of functions to calculate the center of gravity position
   and distance to the support polygon edge
-  
+
+
 -Spotmicro_Animation_Library_v01.py:
   This file contains a class of functions to generate the animation frames
 
@@ -60,15 +62,24 @@ I connect to the Raspberry Pi with VNC viewer through Wifi (and sometimes LAN Ca
 
 My own Spot Micro version uses:
 
--Raspberry Pi 4.
--PCA9685 shield (I2c) modified in order to separate servos power supply (6V) and 5V logic supply.
+-Raspberry Pi 4
+
+-PCA9685 shield (I2c) modified in order to separate servos power supply (6V) and 5V logic supply
+
 -12 x 30 kg.cm servos
+
 -MPU 6050 (I2c) IMU
+
 -ADS 1015 (I2c) for voltage measurement (with a simpe resistors voltage divider)
+
 -2x16 characters LCD display (I2c)
+
 -2 HC-SR04 untrasonic range sensors
+
 -20 A SBEC supply (servos) set at 6V
+
 -5 A SBEC supply for the RPi and shields logic circuits
+
 -2S 4000 mAh LiPo Battery
 
 I hope you will enjoy playing with this software as much as I had writing it ! 
