@@ -16,8 +16,11 @@ In the main program Spot_Micro_Control_v01.py:
 Based upon the paws to body position, the Inverse Kinematics functions calculates 4 sets of 3 angles (x shoulder, y shoulder, y elbow/knee): thetalf, thetarf, thetarr, thetalr:
 
 -lf: left front leg
+
 -rf : right front leg
+
 -rr : right rear leg
+
 -lr : left rear leg
 
 I expect that it is not necessary to understand exactly how the SW works providing that finally only these generated angles are necessary to control Spot Micro.
@@ -32,12 +35,17 @@ Attached Libraries:
   It includes :
   
    -The main dimensions of Spot micro
+   
    -The center of gravity position and weight of each spotmicro limbs and body
+   
    -The forward kinematics function
+   
    -The forward kinematics functions
+   
    -The function that generates walking positions
+   
    -The function that generates positions from known start and end positionsThis library contains a class of functions to calculate the center of gravity position
-    and distance to the support polygon edge
+   and distance to the support polygon edge
 
 
 -Spotmicro_Gravity_Center_Library_v01.py:
