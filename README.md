@@ -1,7 +1,7 @@
 # Spot-Micro-Control-and-Animation
 Inverse Kinematics based control and animation of Spotmicro developped in Python for Raspeberry Pi
 
-This first version is a "simulator" of Spot Micro that runs under Python 3 and requires the Pygame Library in order to display animation and use the xbox one (or any similar) controller
+This first version is a "simulator" of Spot Micro that runs under Python 3 and requires the Pygame Library in order to display animation and use the xbox one (or any similar) controller. I developped it with on a Raspberry Pi 4 but it runs successfully also on a Windows 10 PC.
 
 The SW does not include any function to control the servos PWM. I chose to do so as this part is very dependent on the HW set-up (type of µC board, servos type, ...)
 However, the SW includes all the functions that enable Spot Micro to walk, sit, give the paws, lie, twist and even lift the hind leg...
@@ -55,7 +55,10 @@ Attached Libraries:
 Please make sure that all these files are located in the same folder.
 
 * Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
-  
+
+
+
+
 I will release soon a full version corresponding to my HW for information or for persons willing to apply the same of very close set-up.
 Actual S/W includes the control of IMU, voltage sensor, LCD display and ultrasonic range sensors
 It also includes features in order to toggle animation display and servos motion. This is very usefull to test movements prior to apply them in real life.
