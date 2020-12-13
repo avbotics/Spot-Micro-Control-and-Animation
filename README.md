@@ -7,7 +7,7 @@ The SW does not include any function to control the servos PWM. I chose to do so
 However, the SW includes all the functions that enable Spot Micro to walk, sit, give the paws, lie, twist and even lift the hind leg...
 All these features are based upon Inverse Kinematics.
 
-In the main program Spot_Micro_Control_v01.py:
+* In the main program Spot_Micro_Control_v01.py:
 
 -Line 57 to 72: set-up of the XBOX One (or similar) controller. You can use the attached utility Essai_Joystick_01.py to identify the parameters.
 
@@ -30,7 +30,7 @@ I attached a pdf file that gives some details about how inverse kinematics is bu
 
 Attached Libraries:
 
-Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py: This file contains a class of paramaters and functions to calculate Spot micro position. It includes:
+* Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py: This file contains a class of paramaters and functions to calculate Spot micro position. It includes:
   
    -The main dimensions of Spot micro
    
@@ -46,15 +46,15 @@ Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py: This file contains a c
     and distance to the support polygon edge
 
 
-# Spotmicro_Gravity_Center_Library_v01.py: This file contains a class of functions to calculate the center of gravity position and distance to the support polygon edge
+* Spotmicro_Gravity_Center_Library_v01.py: This file contains a class of functions to calculate the center of gravity position and distance to the support polygon edge
 
 
-Spotmicro_Animation_Library_v01.py:
+* Spotmicro_Animation_Library_v01.py:
   This file contains a class of functions to generate the animation frames
 
 Please make sure that all these files are located in the same folder.
 
-Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
+* Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
   
 I will release soon a full version corresponding to my HW for information or for persons willing to apply the same of very close set-up.
 Actual S/W includes the control of IMU, voltage sensor, LCD display and ultrasonic range sensors
