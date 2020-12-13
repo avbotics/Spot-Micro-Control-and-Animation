@@ -30,9 +30,7 @@ I attached a pdf file that gives some details about how inverse kinematics is bu
 
 Attached Libraries:
 
--Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py:
-  This file contains a class of paramaters and functions to calculate Spot micro position.
-  It includes :
+Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py: This file contains a class of paramaters and functions to calculate Spot micro position. It includes:
   
    -The main dimensions of Spot micro
    
@@ -45,22 +43,18 @@ Attached Libraries:
    -The function that generates walking positions
    
    -The function that generates positions from known start and end positionsThis library contains a class of functions to calculate the center of gravity position
-   and distance to the support polygon edge
+    and distance to the support polygon edge
 
 
--Spotmicro_Gravity_Center_Library_v01.py:
-  This file contains a class of functions to calculate the center of gravity position
-  and distance to the support polygon edge
+# Spotmicro_Gravity_Center_Library_v01.py: This file contains a class of functions to calculate the center of gravity position and distance to the support polygon edge
 
 
--Spotmicro_Animation_Library_v01.py:
+Spotmicro_Animation_Library_v01.py:
   This file contains a class of functions to generate the animation frames
 
 Please make sure that all these files are located in the same folder.
 
--Essai_Joystick_01.py:
-
-  This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
+Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
   
 I will release soon a full version corresponding to my HW for information or for persons willing to apply the same of very close set-up.
 Actual S/W includes the control of IMU, voltage sensor, LCD display and ultrasonic range sensors
@@ -90,7 +84,9 @@ My own Spot Micro version uses:
 
 -2S 4000 mAh LiPo Battery
 
-I hope you will enjoy playing with this software as much as I had writing it ! 
+I hope you will enjoy playing with this software and build-up your own walking Spot Micro ! 
+
+
 
 Arnaud Villeneuve
 
