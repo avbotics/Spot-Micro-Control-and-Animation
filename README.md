@@ -9,9 +9,9 @@ All these features are based upon Inverse Kinematics.
 
 In the main program Spot_Micro_Control_v01.py:
 
--Line 57 to 72: set-up of the XBOX One (or similar) controller. You can use the attached utility Essai_Joystick_01.py to identify the parameters
+-Line 57 to 72: set-up of the XBOX One (or similar) controller. You can use the attached utility Essai_Joystick_01.py to identify the parameters.
 
--Line 565: This is the best place where you could place the call to your own servo control function
+-Line 565: This is the best place where you could place the call to your own servo control function.
  
 Based upon the paws to body position, the Inverse Kinematics functions calculates 4 sets of 3 angles (x shoulder, y shoulder, y elbow/knee): thetalf, thetarf, thetarr, thetalr:
 
@@ -31,12 +31,12 @@ Attached Libraries:
   This file contains a class of paramaters and functions to calculate Spot micro position.
   It includes :
   
-    -The main dimensions of Spot micro
-    -The center of gravity position and weight of each spotmicro limbs and body
-    -The forward kinematics function
-    -The forward kinematics functions
-    -The function that generates walking positions
-    -The function that generates positions from known start and end positionsThis library contains a class of functions to calculate the center of gravity position
+   -The main dimensions of Spot micro
+   -The center of gravity position and weight of each spotmicro limbs and body
+   -The forward kinematics function
+   -The forward kinematics functions
+   -The function that generates walking positions
+   -The function that generates positions from known start and end positionsThis library contains a class of functions to calculate the center of gravity position
     and distance to the support polygon edge
 
 -Spotmicro_Gravity_Center_Library_v01.py:
@@ -60,8 +60,8 @@ I connect to the Raspberry Pi with VNC viewer through Wifi (and sometimes LAN Ca
 
 My own Spot Micro version uses:
 
--Raspberry Pi 4
--PCA9685 shield (I2c) modified in order to separate servos power supply (6V) and 5V logic supply
+-Raspberry Pi 4.
+-PCA9685 shield (I2c) modified in order to separate servos power supply (6V) and 5V logic supply.
 -12 x 30 kg.cm servos
 -MPU 6050 (I2c) IMU
 -ADS 1015 (I2c) for voltage measurement (with a simpe resistors voltage divider)
