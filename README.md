@@ -8,11 +8,13 @@ However, the SW includes all the functions that enable Spot Micro to walk, sit, 
 All these features are based upon Inverse Kinematics.
 
 In the main program Spot_Micro_Control_v01.py:
+
 -Line 57 to 72: set-up of the XBOX One (or similar) controller. You can use the attached utility Essai_Joystick_01.py to identify the parameters
 
 -Line 565: This is the best place where you could place the call to your own servo control function
  
-Based upon the paws to body position, the Inverse Kinematics functions calculates 4 sets of 3 angles (x shoulder, y shoulder, y elbow/knee): thetalf, thetarf, thetarr, thetalr 
+Based upon the paws to body position, the Inverse Kinematics functions calculates 4 sets of 3 angles (x shoulder, y shoulder, y elbow/knee): thetalf, thetarf, thetarr, thetalr:
+
 -lf: left front leg
 -rf : right front leg
 -rr : right rear leg
@@ -24,9 +26,11 @@ When adapting to your own servos, please pay attention to zero setting of the se
 I attached a pdf file that gives some details about how inverse kinematics is built-up and correspondance between calculated angles and servos angles.
 
 Attached Libraries:
+
 -Spotmicro_Inverse_Kinematics_and_Position_Library_v01.py:
-  This file contains a class of paramaters and functions to calculate Spot micro position
+  This file contains a class of paramaters and functions to calculate Spot micro position.
   It includes :
+  
     -The main dimensions of Spot micro
     -The center of gravity position and weight of each spotmicro limbs and body
     -The forward kinematics function
@@ -45,6 +49,7 @@ Attached Libraries:
 Please make sure that all these files are located in the same folder.
 
 -Essai_Joystick_01.py:
+
   This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
   
 I will release soon a full version corresponding to my HW for information or for persons willing to apply the same of very close set-up.
@@ -54,6 +59,7 @@ It also includes features in order to toggle animation display and servos motion
 I connect to the Raspberry Pi with VNC viewer through Wifi (and sometimes LAN Cable). 
 
 My own Spot Micro version uses:
+
 -Raspberry Pi 4
 -PCA9685 shield (I2c) modified in order to separate servos power supply (6V) and 5V logic supply
 -12 x 30 kg.cm servos
@@ -68,6 +74,7 @@ My own Spot Micro version uses:
 I hope you will enjoy playing with this software as much as I had writing it ! 
 
 Arnaud Villeneuve
+
 December 2020
 
 
