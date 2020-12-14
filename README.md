@@ -54,7 +54,7 @@ Attached Libraries:
 
 Please make sure that all these files are located in the same folder.
 
-* Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.htm. It is helpfull to identify the controller / joystick parameters
+* Essai_Joystick_01.py: This utility was copied from https://www.pygame.org/docs/ref/joystick.html. It is helpfull to identify the controller / joystick parameters
 
 
 
